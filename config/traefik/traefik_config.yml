@@ -24,7 +24,7 @@ certificatesResolvers:
     acme:
       httpChallenge:
         entryPoint: web
-      email: admin@example.com # REPLACE WITH YOUR EMAIL
+      email: sajidk25@gmail.com # REPLACE WITH YOUR EMAIL
       storage: "/letsencrypt/acme.json"
       caServer: "https://acme-v02.api.letsencrypt.org/directory"
 
