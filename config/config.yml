@@ -1,16 +1,16 @@
 app:
-  dashboard_url: "http://5.161.105.106:3001" # REPLACE WITH YOUR DOMAIN OR IP
+  dashboard_url: "https://pangolin.t99ltd.com" # REPLACE WITH YOUR DOMAIN
 
 domains:
   domain1:
-    base_domain: "pangolin.t99ltd.com" # REPLACE WITH YOUR DOMAIN OR IP
+    base_domain: "pangolin.t99ltd.com" # REPLACE WITH YOUR DOMAIN
     cert_resolver: "letsencrypt" 
 
 server:
   secret: "your-strong-secret"
 
 gerbil:
-  base_endpoint: "pangolin.t99ltd.com" # REPLACE WITH YOUR DOMAIN OR IP
+  base_endpoint: "pangolin.t99ltd.com" # REPLACE WITH YOUR DOMAIN
 
 flags:
   require_email_verification: false
